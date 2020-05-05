@@ -13,7 +13,7 @@ const Chat = ({ location }) => {
   const [roomdata, setRoomData] = useState([]);
   const [message, setMessage] = useState("");
   const [messages, setMessages] = useState([]);
-  const ENDPOINT = `http://localhost:8080`;
+  const ENDPOINT = `https://whispering-journey-62675.herokuapp.com`;
 
   useEffect(
     () => {
